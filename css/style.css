@@ -61,14 +61,12 @@ span {
     width: 20% !important;
     height: 100%;
     position: fixed;
-    background: #000;
     overflow: hidden;
 }
 
 .navbar {
     height: auto;
 }
-
 .navbar-expand-lg {
     flex-wrap: wrap;
 }
@@ -76,6 +74,7 @@ span {
 .main-menu {
     justify-content: center;
     display: block !important;
+    background: #000;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -160,6 +159,7 @@ span {
     width: 80%;
     height: 100% !important;
     float: right;
+    overflow: hidden;
 }
 
 #home {
@@ -581,7 +581,7 @@ span {
 
 
 
-/* =============================== portfolio part start  ================================ */
+/* =============================== portfolio part start  ================================*/
 #portfolio-part{
     margin-bottom: 50px;
     padding-bottom: 50px;
@@ -591,12 +591,12 @@ span {
     z-index: 1;
 }
 
-.filter-menu{
+#portfolio-part .filter-menu{
     height: 40px;
     margin-bottom: 10px;
     margin-top: -30px;
 }
-.filter-menu a{
+#portfolio-part .filter-menu a{
     font-size: 20px;
     font-weight: 500;
     font-family: 'poppins';
@@ -606,7 +606,7 @@ span {
     position: relative;
     transition: all linear .3s;
 }
-.filter-menu a:hover{
+#portfolio-part .filter-menu a:hover{
     color: #20c997;
 }
 
@@ -662,7 +662,7 @@ span {
     opacity: 1;
 }
 
-
+ 
 
 
 
